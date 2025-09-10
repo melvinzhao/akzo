@@ -1,5 +1,5 @@
 # 使用官方ZAP镜像作为基础
-FROM zaproxy/zap-stable:2.16.1
+FROM pentestregistry.azurecr.cn/zaproxy/zap-stable:2.16.1
 
 # 切换到root用户来执行更新命令
 USER root
